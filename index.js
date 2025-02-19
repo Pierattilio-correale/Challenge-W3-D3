@@ -3,6 +3,7 @@ const myForm = document.getElementById("taskform");
 myForm.addEventListener("submit", (e) => {
   e.preventDefault();
   console.log("vediamo se funziona il form");
+
   const task = document.getElementById("taskingadder");
 
   console.log(task);
