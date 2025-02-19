@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BENVENUTO NEL MIO FORM INTERATTIVO</h1>
+    </header>
+    <nav></nav>
+    <section>
+      <img
+        class="immaginestyle"
+        src="./Assets/form power.png"
+        alt="immagine simpatica per descrivere i form"
+      />
+      <p>
+        Facciamo una prova di quanto un form dinamico possa essere utile , in
+        questo caso utilizzeremo un form che grazie a JavaScript reagirà al
+        click sul bottone aggiungendo ogni elemento alla nuova lista
+      </p>
+    </section>
+    <main>
+      <article>
+        <div id="border-container">
+          <div id="border">
+            <form id="taskform">
+              <div id="taskadder">
+                <label for="taskingadder"
+                  >Inserisci la tua task da aggiungere</label
+                >
+                <input id="taskingadder" /> <button>Add</button>
+              </div>
+              <div id="task-container"></div>
+            </form>
+          </div>
+          <div></div>
+        </div>
+      </article>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
